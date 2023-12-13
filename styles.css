@@ -60,3 +60,22 @@ body {
     border-radius: 4px;
   }
   
+
+.emoji-section {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  
+  .emoji {
+    animation: emojiBounce 0.5s infinite alternate;
+  }
+  
+  @keyframes emojiBounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
